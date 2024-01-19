@@ -11,11 +11,6 @@
     align-items: center;
 }
 
-.navegacion{
-    margin-top: 5rem;
-    display: flex;
-    gap: 2rem;
-}
 
 .navegacion a{
     color: white;

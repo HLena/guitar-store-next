@@ -34,3 +34,9 @@ main {
   color: var(--primary);
   margin: 5rem 0;
 }
+
+.navegacion{
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+}
