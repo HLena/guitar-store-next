@@ -13,7 +13,7 @@ export const Header = () => {
         <Link href="/">
           <Image src={logo} alt="logo" width={300} height={40}/>
         </Link>
-        <nav className='navegacion'>
+        <nav className={`navegacion ${styles.navegacion}`}>
           <Link href="/" className={router.pathname === '/' ? styles.active : ''}> Inicio 
               </Link>
           <Link href="/nosotros" className={router.pathname === '/nosotros' ? styles.active : ''}> Nosotros 
